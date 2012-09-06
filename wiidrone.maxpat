@@ -30,6 +30,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 72.5, 63.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-119",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -142,7 +156,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.0, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 419.5, 394.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -175,7 +188,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 371.5, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 376.5, 394.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -208,7 +220,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 321.5, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 323.5, 391.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -241,7 +252,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 271.5, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 272.5, 397.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -274,7 +284,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 222.5, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 224.5, 396.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -307,7 +316,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 172.5, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 175.5, 394.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -340,7 +348,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 395.0, 19.0, 48.0 ],
-					"presentation_rect" : [ 123.5, 397.0, 0.0, 0.0 ],
 					"text" : "ftom"
 				}
 
@@ -423,7 +430,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 153.5, 30.0, 57.0, 24.0 ]
+					"patching_rect" : [ 163.5, 30.0, 57.0, 24.0 ]
 				}
 
 			}
@@ -1206,6 +1213,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
